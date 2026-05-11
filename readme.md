@@ -7,5 +7,5 @@ files:
 - weak2strong.py: DPS+
 - heatmap_mask.py: generate heatmap masks for adversarial images
 
-Noted that this project adopts the lightweight local model Qwen/Qwen2.5-VL-3B-Instruct.
+Noted that this project adopts the lightweight local model Qwen/Qwen2.5-VL-3B-Instruct, and the heatmap generation method is referenced from: [saccharomycetes/mllms_know](https://github.com/saccharomycetes/mllms_know)
 
