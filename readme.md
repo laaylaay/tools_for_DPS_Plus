@@ -13,6 +13,10 @@
   <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
 </p>
 
+<p align="center">
+  <img src="assets/method_overview.png" alt="DPS+ Method Overview" width="100%">
+</p>
+
 ---
 
 ## Overview
@@ -29,19 +33,7 @@ This approach requires only a lightweight local model (runnable on consumer hard
 
 ## How It Works
 
-```
-  Input Image            Attention Heatmap         Masked Image
-┌─────────────┐       ┌─────────────────┐       ┌─────────────┐
-│             │       │   ░░░░░░░░░░░   │       │  ████████   │
-│  adversarial│  -->  │   ░░HIGH ATT░░  │  -->  │  █MASKED█   │
-│    image    │       │   ░░░░░░░░░░░   │       │  ████████   │
-│             │       │                 │       │             │
-└─────────────┘       └─────────────────┘       └─────────────┘
-                               │                        │
-                               ▼                        ▼
-                     Local Model (Weak)         Remote Model (Strong)
-                     Qwen2.5-VL-3B              Re-evaluates answer
-```
+The full pipeline is illustrated in the teaser figure above.
 
 | Step | Description |
 |:----:|:------------|
