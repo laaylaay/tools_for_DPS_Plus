@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="icon.svg" alt="DPS+ Icon" width="120">
-</p>
-
 <h1 align="center">DPS+</h1>
 
 <p align="center">
@@ -28,10 +24,6 @@
 3. A powerful **remote model** first answers based on the full image, then re-evaluates its answer using observations from the masked image — effectively catching and correcting adversarial deception.
 
 This approach requires only a lightweight local model (runnable on consumer hardware) and works with any remote VLM API.
-
-<p align="center">
-  <img src="icon.svg" alt="DPS+ Workflow" width="50%">
-</p>
 
 ---
 
@@ -66,7 +58,6 @@ This approach requires only a lightweight local model (runnable on consumer hard
 
 ```
 DPS+/
-├── icon.svg                  # Project icon
 ├── readme.md                 # This file
 ├── demo.py                   # End-to-end demo on adversarial images
 ├── weak2strong_tool.py       # Core weak-to-strong defense pipeline
@@ -95,7 +86,7 @@ DPS+/
 ```bash
 # Clone the repository
 git clone https://github.com/laaylaay/tools_for_DPS_Plus.git
-cd DPS-plus
+cd tools_for_DPS_Plus
 
 # Install PyTorch (choose your CUDA version)
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
