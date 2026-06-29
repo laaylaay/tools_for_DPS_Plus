@@ -164,10 +164,10 @@ If you use DPS+ in your research, please cite:
 
 ```bibtex
 @misc{dpsplus2025,
-  title        = {DPS+: Defensive Perturbation Suppression via Weak-to-Strong Collaboration},
-  author       = {Tianlin Li, Angyang Li, Qi Zhou, Qing Guo, Yihao Huang, Xiaoyu Zhang, Mingyi Zhou, Mengnan Du, Dongxia Wang,  and Ivor Tsang},
+  title        = {DPS+: Defending LVLMs Against Vision Attacks via Attention-Guided Partial Perception},
+  author       = {Tianlin Li, Angyang Li, Qi Zhou, Qing Guo, Yihao Huang, Xiaoyu Zhang, Mingyi Zhou, Mengnan Du, Dongxia Wang, and Ivor Tsang},
   year         = {2025},
-  howpublished = {\url{https://github.com/your-org/DPS-plus}},
+  howpublished = {\url{https://github.com/laaylaay/tools_for_DPS_Plus}},
 }
 ```
 
