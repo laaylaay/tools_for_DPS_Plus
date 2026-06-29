@@ -178,9 +178,3 @@ The heatmap generation method is adapted from [saccharomycetes/mllms_know](https
 ## Acknowledgment
 
 This project uses [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) as the local defense model. We thank the Qwen team for their open-source contributions.
-
----
-
-<p align="center">
-  <sub>Made with attention to safety · DPS+ Team</sub>
-</p>
