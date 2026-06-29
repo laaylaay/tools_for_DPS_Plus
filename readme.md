@@ -151,8 +151,8 @@ python demo.py
 | Parameter | Default | Description |
 |:----------|:--------|:------------|
 | `mask_percentile` | `80` | Percentile threshold for attention masking. Higher = smaller masked area. |
-| `remote_model_name` | — | Name of the remote VLM (e.g., `gpt-4o`, `qwen3-vl-plus`). |
-| `label` | — | Ground-truth label for the classification question. |
+| `remote_model_name` | — | Name of the remote VLM (e.g., `gpt-5`, `qwen3-vl-plus`). |
+| `label` | — | Ground-truth label. |
 | `attack_text` | — | The adversarial target label. |
 | `temp_image_dir` | `./masked_images` | Directory to store generated masked images. |
 
