@@ -166,7 +166,7 @@ If you use DPS+ in your research, please cite:
 @misc{dpsplus2025,
   title        = {DPS+: Defending LVLMs Against Vision Attacks via Attention-Guided Partial Perception},
   author       = {Tianlin Li, Angyang Li, Qi Zhou, Qing Guo, Yihao Huang, Xiaoyu Zhang, Mingyi Zhou, Mengnan Du, Dongxia Wang, and Ivor Tsang},
-  year         = {2025},
+  year         = {2026},
   howpublished = {\url{https://github.com/laaylaay/tools_for_DPS_Plus}},
 }
 ```
