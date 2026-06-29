@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/method_overview.png" alt="DPS+ Method Overview" width="100%">
+  <img src="assets/figure3.png" alt="DPS+ Method Overview" width="100%">
 </p>
 
 ---
