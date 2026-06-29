@@ -34,9 +34,10 @@ def main():
     )
 
     files = os.listdir("./examples/")
-    safe_model_name = model_name.replace("/", "-")
-    output_path = f"./{safe_model_name}_{dataset}_{method}.jsonl"
+    safe_remote_model_name = remote_model_name.replace("/", "-")
+    output_path = f"./{safe_remote_model_name}_{dataset}_{method}.jsonl"
     
+    question_prompt = f"Is it a '{label}' or a '{attack}'?"
     for i in files:
         image_path = "./examples/" + i
         result = weak2strong_tool(
@@ -45,6 +46,7 @@ def main():
             image_path=image_path,
             label=label,
             attack_text=attack,
+            question_prompt=question_prompt,
             remote_model_name=remote_model_name,
             mask_percentile=mask_percentile,
         )

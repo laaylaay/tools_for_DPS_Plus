@@ -29,7 +29,6 @@ def generate_heatmap_and_mask(
     temp_image_dir,
     mask_percentile=80,
 ):
-    """Generate one heatmap-driven masked image and return its path."""
     original_image = Image.open(image_path).convert("RGB")
 
     target_size = (1024, 1024)
